@@ -10,7 +10,6 @@ pipeline {
                 }
             }
             steps {
-                clearWs()
                 sh '''
                     ls -la
                     node --version
